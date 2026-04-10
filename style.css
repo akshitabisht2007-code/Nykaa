@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header img {
+  height: 70px;
+}
+
+.icons {
+  font-size: 22px;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 15px;
+}
+
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin: 5px;
+}
+
+.hero-text h3 {
+  margin: 5px;
+}
+
+.hero-text p {
+  font-size: 18px;
+}
+
+.categories {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card img {
+  width: 150px;
+  border: 2px solid white;
+}
+
+.card p {
+  margin-top: 5px;
+}
+
+.apps {
+  text-align: center;
+  background: #444;
+  padding: 20px;
+}
+
+.apps img {
+  width: 140px;
+  margin: 5px;
+}
+
+.social {
+  text-align: center;
+  padding: 20px;
+}
+
+.social img {
+  width: 35px;
+  margin: 5px;
+}
+
+.footer {
+  text-align: center;
+  background: pink;
+  padding: 10px;
+}
